@@ -1,7 +1,7 @@
 <template>
 <div>
     <!--
-      v card qui gerer l'affichage des items
+      v card qui gere l'affichage des items
       on va boucler sur le tableau items pour pouvoir créer une v list 
       chaque item a deux v btn qui gere la modification et la suppression de son contenu
 
@@ -44,7 +44,7 @@
     </v-card>
 
     <!--
-      v dialog qui gerer la creation des items
+      v dialog qui gere la creation des items
       à noter qu'on aurait pu faire un autre composant vue,
       mais pour ce petit exemple cela ne me paraissait non necessaire
     -->
@@ -86,7 +86,7 @@
     </v-dialog>
 
     <!--
-      v dialog qui gerer le renomages des items
+      v dialog qui gere le renommage des items
     -->
 
     <v-dialog
