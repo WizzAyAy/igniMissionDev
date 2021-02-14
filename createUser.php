@@ -113,6 +113,12 @@ class createUser extends Command
         $userEmail = strval($this->option('E'));
         $userPassword = strval($this->option('P'));
 
+        
+        //Sanitize tous les champs pour un peu plus de sécutité meme si ce n'est pas une secutitée absolue 
+        $userName = filter_var($userName, FILTER_SANITIZE_STRING);
+        $userEmail = filter_var($userEmail, FILTER_SANITIZE_EMAIL);
+        $userPassword = filter_var($userPassword, FILTER_SANITIZE_STRING);
+
         //on regarde si tous les champs sont presents
         if(empty($userName) || empty($userEmail) || empty($userPassword)){
             //attention tous les champs ne sont pas remplis !
