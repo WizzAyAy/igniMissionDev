@@ -5,4 +5,4 @@ le fichier createUser.php est le fichier commande pour artisan
 
 le fichier Todo.vue est le composant Todo List vue fait avec vuetify
   avec ce composant vous pouvez ajouter, modifer et supprimer des taches. Ces taches sont stocker en "dur" dans le code.
-  les images des icones sont stockées dans le dossier asstes
+  les images des icones sont stockées dans le dossier assts
